@@ -43,7 +43,7 @@ class App extends Component {
         </form>
         <form>          
           {
-            this.state.tasks.map(task => <Task />)
+            this.state.tasks.map(task => <Task  value={task}/>)
           }
         </form> 
         
